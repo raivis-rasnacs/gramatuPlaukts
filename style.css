@@ -1,0 +1,23 @@
+body {
+  background-color:#b06f0e;
+}
+
+table {
+  border-collapse:collapse;
+  width:90%;
+  border:10px solid #5e3d0a;
+}
+
+tr {
+  height:130px;
+  border-bottom:10px solid #5e3d0a;
+}
+
+img {
+  height:100px;
+}
+
+td {
+  text-align:center;
+}
+

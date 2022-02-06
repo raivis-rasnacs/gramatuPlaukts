@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<center>
+		<p>Pievienot grāmatu</p>
+		<input id="nosaukums" onfocus="this.value=''" type="text" value="Ievadi nosaukumu!">
+      <input id="vaks" type="file" onchange="document.getElementById('poga').disabled = false;">
+      <button id="poga" onclick="pievienot(this)" disabled>Pievienot plauktam!</button><br><br>
+    <table id="plaukts">
+      <tr>
+        <td><img src="zvejnieka-dels.jpg" alt="Zvejnieka Dēls"><p>Zvejnieka Dēls</p></td>
+        <td><img src="pansija-pili.jpg" alt="Pansija Pilī"><p>Pansija Pilī</p></td>
+      </tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+    </table>    
+    </center>
+    <script src="script.js"></script>
+  </body>
+</html>
